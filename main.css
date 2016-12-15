@@ -1,39 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	background-color:#F4F4F4
-	font-family: "Comic Sans MS", cursive;
-	color:#03F
-}
+body, html
+{ margin:0px;
+padding:0px;}
 
-a
-{ color:#003700;
-}
-
-
-h1 {
-	color:#F00;
-}
+ul
+{background-color:#333;
+position:fixed;
+width:100%;
+top:0px;
+margin:0px;}
 
 
+li
+{ display:inline-block;
+width:10%;
+min-width:90px;}
 
+li a
+{ color:#FFF;
+text-decoration:none;
+display:block;
+background-color:#666;
+padding:10px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+li a:hover
+{ background-color:#999;
+color:#000;
+    }
